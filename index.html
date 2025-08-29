@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Auth System</title>
+    <link rel="stylesheet" href="index.css">
+     <script src="index.js"></script>
+    <script src="Server.js"></script>
+
+  </head>
+  <body>
+    <div class="container">
+      <h2>Sign Up</h2>
+      <input id="signup-username" type="text" placeholder="Username" />
+      <input id="signup-password" type="password" placeholder="Password" />
+      <button onclick="signup()">Sign Up</button>
+
+      <h2>Login</h2>
+      <input id="login-username" type="text" placeholder="Username" />
+      <input id="login-password" type="password" placeholder="Password" />
+      <button onclick="login()">Login</button>
+
+      <h2>Protected</h2>
+      <button onclick="accessProtected()">Access Protected</button>
+
+      <div id="message"></div>
+    </div>
+  </body>
+ 
+</html>
